@@ -19,6 +19,7 @@
     (entries) => {
         entries.forEach((entry, i) => {
         if (entry.isIntersecting) {
+            observer.unobserve(entry.target);
             const p = 2;
             const c = document.createElement('canvas');
             const x = c.getContext('2d');
@@ -52,9 +53,6 @@
             }
 
             entry.target.prepend(c);
-        } else {
-            if (entry.target.firstChild.tagName === 'CANVAS')
-            entry.target.firstChild.remove();
         }
         });
     },

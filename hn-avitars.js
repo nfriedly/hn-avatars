@@ -1,21 +1,19 @@
-    // ==UserScript==
-    // @name        HN Avatars in 396 bytes
-    // @description Annotated avatars on all HN comments.
-    // @author      tomxor (https://news.ycombinator.com/user?id=tomxor)
-    // @icon        https://news.ycombinator.com/favicon.ico
-    // @namespace   https://news.ycombinator.com/item?id=30668137
-    // @include     https://news.ycombinator.com/newcomments*
-    // @include     https://news.ycombinator.com/item*
-    // @include     https://news.ycombinator.com/user*
-    // @grant       none
-    // @version     1.0.6
-    // @compatible  firefox
-    // @compatible  chrome
-    // @compatible  edge
-    // @compatible  opera
-    // ==/UserScript==
+// ==UserScript==
+// @name        HN Avatars
+// @description Generates avitars to go beside usernames on Hacker News
+// @author      tomxor, onion2k, nfriedly, and others (https://news.ycombinator.com/item?id=30668137)
+// @icon        https://news.ycombinator.com/favicon.ico
+// @namespace   https://news.ycombinator.com/item?id=30668137
+// @include     https://news.ycombinator.com/*
+// @version     1.1.0
+// @compatible  firefox
+// @compatible  chrome
+// @compatible  edge
+// @compatible  opera
+// @homepageURL https://github.com/nfriedly/hn-avitars
+// ==/UserScript==
      
-   let observer = new IntersectionObserver(
+let observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {

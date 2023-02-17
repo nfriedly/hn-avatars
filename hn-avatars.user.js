@@ -11,6 +11,7 @@
 // @compatible  edge
 // @compatible  opera
 // @homepageURL https://github.com/nfriedly/hn-avitars
+// @license     🤷‍♂️
 // ==/UserScript==
      
 let observer = new IntersectionObserver(

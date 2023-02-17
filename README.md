@@ -1,5 +1,7 @@
 # hn-avitars
-Userscript to generate avitars next to usernames on Hacker News
+UserScript to generate avitars next to usernames on Hacker News. 
+
+Run it with a tool such as [Violentmonkey](https://violentmonkey.github.io/), see https://greasyfork.org/ for other options.
 
 Script is based on https://news.ycombinator.com/item?id=30668137 with additional changes from the comments and some of my own incoporated.
 

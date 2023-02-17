@@ -23,6 +23,7 @@ let observer = new IntersectionObserver(
         const x = c.getContext("2d");
         c.width = 18;
         c.height = 14;
+        c.style.imageRendering = "pixelated";
         const s = entry.target.innerText;
         const r = 1;
 

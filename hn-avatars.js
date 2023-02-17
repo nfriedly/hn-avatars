@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Avatars
-// @description Generates avitars to go beside usernames on Hacker News
+// @description Generates avatars to go beside usernames on Hacker News
 // @author      tomxor, onion2k, nfriedly, and others (https://news.ycombinator.com/item?id=30668137)
 // @icon        https://news.ycombinator.com/favicon.ico
 // @namespace   https://news.ycombinator.com/item?id=30668137

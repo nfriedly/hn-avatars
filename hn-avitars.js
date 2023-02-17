@@ -59,6 +59,6 @@
   { rootMargin: "0px 0px 0px 0px" }
 );
 
-document.querySelectorAll(".hnuser").forEach((user) => {
+document.querySelectorAll(".hnuser, #me").forEach((user) => {
   observer.observe(user);
 });

@@ -41,8 +41,7 @@
                 if (i >= 28) {
                 // seed state
                 r += s.charCodeAt(i - 28);
-                x.fillStyle =
-                    '#' + ((r >> 8) & 0xffffff).toString(16).padStart(0, 6);
+                x.fillStyle = '#' + ((r >> 8) & 0xffffff).toString(16).padStart(6, '0');
                 } else {
                 // draw pixel
                 if (r >>> 29 > (X * X) / 3 + Y / 2)

@@ -1,5 +1,5 @@
-# hn-avatars
-UserScript to generate avatars next to usernames on Hacker News. 
+# HN Avatars
+UserScript to generate avatars next to usernames on [Hacker News](https://news.ycombinator.com/). 
 
 Run it with a tool such as [Violentmonkey](https://violentmonkey.github.io/), see https://greasyfork.org/ for other options.
 
